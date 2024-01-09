@@ -51,6 +51,7 @@ nav > a:hover{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
   margin-left: 7%;
+  margin-bottom: 12px;
   cursor: pointer;
   color: var(--white);
   font-weight: 600;
@@ -149,14 +150,56 @@ nav > a:hover{
 display: grid;
 grid-template-areas: "a b c d"
                       "e f g h";
-row-gap: 20px;
-column-gap: 20px;                
+column-gap: 20px; 
+row-gap: 20px;               
+}
+.lbl{
+  color: var(--white);
+  position: relative;
+  top: -120px;
+  left: 50px;
+  z-index: 1;
+  font-family: 'Alata', sans-serif;
+  font-size: 2em;
+}
+.div_lbl{
+  position: absolute;
+  color: white;
+  padding: 10px;
+  z-index: 1;
+  
 }
 /****************************************footer*****************************************/
+.footer{
+  background-color: var(--black);
+  position: relative;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  gap: 60%;
+  padding-top: 2.5%;
+  font-size: 14px;
+}
 #navFooter > a{
-  /* margin-left: 10%; */
+  margin-left: 3%;
   text-decoration: none;
   color: var(--black);
+}
+.leftFoot{
+ display: flex;
+ flex-direction: column;
+ gap: 2%;
+ margin-left: 4%;
+} 
+.rightFoot > img{
+ margin-left: 12px;
+}
+.rightFoot > img{
+  margin-bottom: 20px;
+ }
+.copy{
+  color: var(--lightGrey);
+  margin-left: -65px;
 }
 /***************************************************************************************/
 .imgb{
@@ -167,6 +210,4 @@ column-gap: 20px;
   width: 30%;
   height: 30%;
 }
-.rightFoot{
-  
-}
+ 

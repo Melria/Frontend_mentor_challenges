@@ -1,7 +1,5 @@
-import React from "react"
 
- export const Logo = () => {
-
+export default function Logo(){
   return (
     <div className='logoH'>
         loopstudios
