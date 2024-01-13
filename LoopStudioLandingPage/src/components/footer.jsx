@@ -18,7 +18,7 @@ export const Footer = () =>{
             <img src={twitter}/>
             <img src={pinterest}/>
             <img src={insta}/>
-            <p className="copy">&copy;2021|LoopStudio All right reserved</p>
+            <p className="copy">&copy;2024|Dev_MG All right reserved</p>
         </div>
       </footer>
   )

@@ -157,15 +157,17 @@ row-gap: 20px;
   color: var(--white);
   position: relative;
   top: -120px;
-  left: 50px;
+  left: 30px;
+  text-wrap: wrap;
   z-index: 1;
+  width: 150px;
   font-family: 'Alata', sans-serif;
-  font-size: 2em;
+  font-size: 1.9em;
+ 
 }
 .div_lbl{
   position: absolute;
   color: white;
-  padding: 10px;
   z-index: 1;
   
 }
